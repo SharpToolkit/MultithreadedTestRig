@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Dmitriy Sorkin</Authors>
+    <Company>SharpToolkit</Company>
+    <Product>SharpToolkit</Product>
+    <Description>A testing rig to simplify testing multithreaded code.</Description>
+    <PackageProjectUrl>https://github.com/SharpToolkit/MultithreadedTestRig</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/SharpToolkit/MultithreadedTestRig/blob/master/LICENSE</PackageLicenseUrl>
+  </PropertyGroup>
+
+</Project>
