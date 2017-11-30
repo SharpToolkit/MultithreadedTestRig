@@ -192,8 +192,10 @@ namespace SharpToolkit.Testing.MultithreadedTestRig.Tests
             rig.StartThreads();
             rig.WaitForThreads();
 
+#if DEBUG
             rig.Success.Should().BeFalse();
             rig.CaughtException.Should().NotBeNull();
+#endif
         }
     }
 }
