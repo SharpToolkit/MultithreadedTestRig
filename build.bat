@@ -28,9 +28,6 @@ REM build
 call "%msbuild%" SharpToolkit.Testing.MultithreadedTestRig.sln /p:Configuration="%config%" /m /v:M /fl /flp:LogFile=msbuild.log;Verbosity=Normal /nr:false
 if not "%errorlevel%"=="0" goto failure
 
-call dotnet test SharpToolkit.Testing.MultithreadedTestRig.Tests\SharpToolkit.Testing.MultithreadedTestRig.Tests.csproj --configuration %config% --no-build
-if not "%errorlevel%"=="0" goto failure
-
 REM Package
 mkdir %cd%\..\artifacts
 call dotnet pack SharpToolkit.Testing.MultithreadedTestRig --configuration %config% %packversionsuffix% --output %cd%\..\artifacts
