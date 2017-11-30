@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpToolkit.Testing.MultithreadedTestRig", "SharpToolkit.Testing.MultithreadedTestRig\SharpToolkit.Testing.MultithreadedTestRig.csproj", "{7297358B-F54D-40BA-A79D-15FD182149A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpToolkit.Testing.MultithreadedTestRig.Tests", "..\SharpToolkit.Testing.MultithreadedTestRig.Tests\SharpToolkit.Testing.MultithreadedTestRig.Tests.csproj", "{9CFF1D75-8F81-4F51-AF09-756BB596ED14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpToolkit.Testing.MultithreadedTestRig.Tests", "SharpToolkit.Testing.MultithreadedTestRig.Tests\SharpToolkit.Testing.MultithreadedTestRig.Tests.csproj", "{B050D374-E9F4-497B-87D8-7CE602483EBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{7297358B-F54D-40BA-A79D-15FD182149A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7297358B-F54D-40BA-A79D-15FD182149A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7297358B-F54D-40BA-A79D-15FD182149A8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9CFF1D75-8F81-4F51-AF09-756BB596ED14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9CFF1D75-8F81-4F51-AF09-756BB596ED14}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9CFF1D75-8F81-4F51-AF09-756BB596ED14}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9CFF1D75-8F81-4F51-AF09-756BB596ED14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B050D374-E9F4-497B-87D8-7CE602483EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B050D374-E9F4-497B-87D8-7CE602483EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B050D374-E9F4-497B-87D8-7CE602483EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B050D374-E9F4-497B-87D8-7CE602483EBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
