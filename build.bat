@@ -1,12 +1,12 @@
-@echo Off
+
 set config=%1
 if "%config%" == "" (
    set config=Release
 )
 
 set version=
-if not "%PackageVersion%" == "" (
-   set version=-Version %PackageVersion%
+if not "%BuildCounter%" == "" (
+   set packversionsuffix=--version-suffix ci-%BuildCounter%
 )
 
 REM Detect MSBuild 15.0 path
